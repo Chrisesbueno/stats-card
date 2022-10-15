@@ -37,12 +37,14 @@ body {
 .mobile {
     height: 100%;
     width: 100%;
-    filter: contrast(150%) opacity(50%);   
+    mix-blend-mode: multiply;
+    opacity: 80%;
 }
 .desktop {
     display: none;
     width: 100%;
-    filter: contrast(150%) opacity(50%);
+    mix-blend-mode: multiply;
+    opacity: 80%;
 }
 .left {
     padding: 1.5rem;
